@@ -15,6 +15,8 @@ php artisan make:seeder AreasTableSeeder
 ### 第三步
 
 ```
+#database\seeds\DatabaseSeeder.php => function fun
+
 $this->call('AreasTableSeeder');
 ```
 
